@@ -17,7 +17,7 @@ class CoverUploader < CarrierWave::Uploader::Base
   # Provide a default URL as a default if there hasn't been a file uploaded:
   def default_url
     url = "uploads/#{model.class.to_s.underscore}/#{mounted_as}/default/cover.jpg"
-    url.prepend('/') unless url(0) == '/'
+    url.prepend('/') unless url[0] == '/'
     url
   end
 
