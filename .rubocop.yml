@@ -1,0 +1,46 @@
+AllCops:
+  Exclude:
+    - 'db/schema.rb'
+Metrics/LineLength:
+  Max: 120
+Metrics/BlockLength:
+  CountComments: false
+  Max: 25
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'spec/**/*.rb'
+    - 'spec/**/**/*.rb'
+    - '*.gemspec'
+    - '**/spec_support/**/*.rb'
+    - 'lib/tasks/**/*.rb'
+    - 'db/migrations/*rb'
+Metrics/MethodLength:
+  Max: 15
+Style/AsciiComments:
+  Enabled: false
+Style/NumericPredicate:
+  EnforcedStyle: comparison
+Style/MultilineMethodCallIndentation:
+  EnforcedStyle: aligned
+  Enabled: false
+Style/SpaceAroundOperators:
+  Enabled: false
+Style/ExtraSpacing:
+  Enabled: false
+Documentation:
+  Enabled: false
+Metrics/ClassLength:
+  Max: 300
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+Style/WordArray:
+  Enabled: false
+Style/PercentLiteralDelimiters:
+  Enabled: false
+Style/SymbolArray:
+  Enabled: false
+Style/BlockComments:
+  Enabled: false
+
+

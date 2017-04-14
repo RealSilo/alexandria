@@ -15,6 +15,6 @@ describe Book, type: :model do
   it { should belong_to(:publisher) }
 
   it 'has a valid factory' do
-   expect(build(:book)).to be_valid
+    expect(build(:book)).to be_valid
   end
 end

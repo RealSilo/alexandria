@@ -3,7 +3,7 @@ FactoryGirl.define do
     given_name 'Pat'
     family_name 'Shaughnessy'
   end
-  
+
   factory :michael_hartl, class: Author do
     given_name 'Michael'
     family_name 'Hartl'

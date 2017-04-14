@@ -21,7 +21,7 @@ FactoryGirl.define do
     publisher_id nil
     association :author, factory: :michael_hartl
   end
-  
+
   factory :agile_web_development, class: Book do
     title 'Agile Web Development with Rails 4'
     subtitle ''
