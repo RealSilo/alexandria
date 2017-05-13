@@ -7,6 +7,7 @@ end
 
 gem 'carrierwave'
 gem 'carrierwave-base64'
+gem 'kaminari', '~> 1.0', '>= 1.0.1'
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.0'
 gem 'rails', '~> 5.0.2'
